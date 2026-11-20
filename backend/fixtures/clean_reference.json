@@ -1,0 +1,1402 @@
+[
+  {
+    "capacity_kw": 80,
+    "irradiance": 797.6,
+    "module_temp": 19.18,
+    "slope": 16.88,
+    "clean_kw": 63.4318
+  },
+  {
+    "capacity_kw": 100,
+    "irradiance": 823.69,
+    "module_temp": 59.93,
+    "slope": 12.17,
+    "clean_kw": 67.9972
+  },
+  {
+    "capacity_kw": 120,
+    "irradiance": 645.35,
+    "module_temp": 19.4,
+    "slope": 15.47,
+    "clean_kw": 76.0935
+  },
+  {
+    "capacity_kw": 150,
+    "irradiance": 489.19,
+    "module_temp": 48.54,
+    "slope": 23.62,
+    "clean_kw": 65.1252
+  },
+  {
+    "capacity_kw": 80,
+    "irradiance": 504.31,
+    "module_temp": 45.7,
+    "slope": 30.24,
+    "clean_kw": 36.8594
+  },
+  {
+    "capacity_kw": 100,
+    "irradiance": 838.7,
+    "module_temp": 33.99,
+    "slope": 13.89,
+    "clean_kw": 77.2698
+  },
+  {
+    "capacity_kw": 120,
+    "irradiance": 1020.05,
+    "module_temp": 33.82,
+    "slope": 12.32,
+    "clean_kw": 112.7188
+  },
+  {
+    "capacity_kw": 150,
+    "irradiance": 772.61,
+    "module_temp": 55.94,
+    "slope": 28.24,
+    "clean_kw": 99.402
+  },
+  {
+    "capacity_kw": 80,
+    "irradiance": 725.36,
+    "module_temp": 63.74,
+    "slope": 19.46,
+    "clean_kw": 46.715
+  },
+  {
+    "capacity_kw": 100,
+    "irradiance": 782.96,
+    "module_temp": 58.5,
+    "slope": 24.43,
+    "clean_kw": 66.0141
+  },
+  {
+    "capacity_kw": 120,
+    "irradiance": 843.2,
+    "module_temp": 20.15,
+    "slope": 15.7,
+    "clean_kw": 99.3675
+  },
+  {
+    "capacity_kw": 150,
+    "irradiance": 512.95,
+    "module_temp": 22.75,
+    "slope": 16.95,
+    "clean_kw": 75.488
+  },
+  {
+    "capacity_kw": 80,
+    "irradiance": 794.98,
+    "module_temp": 35.15,
+    "slope": 19.25,
+    "clean_kw": 59.6688
+  },
+  {
+    "capacity_kw": 100,
+    "irradiance": 1005.66,
+    "module_temp": 48.46,
+    "slope": 25.23,
+    "clean_kw": 89.6671
+  },
+  {
+    "capacity_kw": 120,
+    "irradiance": 469.8,
+    "module_temp": 52.27,
+    "slope": 14.09,
+    "clean_kw": 46.5982
+  },
+  {
+    "capacity_kw": 150,
+    "irradiance": 798.0,
+    "module_temp": 44.18,
+    "slope": 27.12,
+    "clean_kw": 109.0947
+  },
+  {
+    "capacity_kw": 80,
+    "irradiance": 940.0,
+    "module_temp": 54.47,
+    "slope": 15.73,
+    "clean_kw": 64.5094
+  },
+  {
+    "capacity_kw": 100,
+    "irradiance": 537.42,
+    "module_temp": 27.92,
+    "slope": 33.57,
+    "clean_kw": 50.3848
+  },
+  {
+    "capacity_kw": 120,
+    "irradiance": 963.46,
+    "module_temp": 32.79,
+    "slope": 26.39,
+    "clean_kw": 108.2442
+  },
+  {
+    "capacity_kw": 150,
+    "irradiance": 671.2,
+    "module_temp": 30.45,
+    "slope": 16.17,
+    "clean_kw": 96.0143
+  },
+  {
+    "capacity_kw": 80,
+    "irradiance": 742.96,
+    "module_temp": 30.35,
+    "slope": 24.61,
+    "clean_kw": 57.4818
+  },
+  {
+    "capacity_kw": 100,
+    "irradiance": 503.52,
+    "module_temp": 64.88,
+    "slope": 22.74,
+    "clean_kw": 41.0791
+  },
+  {
+    "capacity_kw": 120,
+    "irradiance": 413.64,
+    "module_temp": 20.21,
+    "slope": 12.74,
+    "clean_kw": 47.1757
+  },
+  {
+    "capacity_kw": 150,
+    "irradiance": 645.51,
+    "module_temp": 20.99,
+    "slope": 19.54,
+    "clean_kw": 95.2336
+  },
+  {
+    "capacity_kw": 80,
+    "irradiance": 1047.28,
+    "module_temp": 42.87,
+    "slope": 34.28,
+    "clean_kw": 73.3341
+  },
+  {
+    "capacity_kw": 100,
+    "irradiance": 854.51,
+    "module_temp": 50.04,
+    "slope": 23.42,
+    "clean_kw": 75.2739
+  },
+  {
+    "capacity_kw": 120,
+    "irradiance": 536.78,
+    "module_temp": 48.13,
+    "slope": 12.79,
+    "clean_kw": 54.8019
+  },
+  {
+    "capacity_kw": 150,
+    "irradiance": 1017.67,
+    "module_temp": 59.17,
+    "slope": 16.58,
+    "clean_kw": 127.8113
+  },
+  {
+    "capacity_kw": 80,
+    "irradiance": 700.41,
+    "module_temp": 26.4,
+    "slope": 32.82,
+    "clean_kw": 53.3708
+  },
+  {
+    "capacity_kw": 100,
+    "irradiance": 797.26,
+    "module_temp": 46.62,
+    "slope": 13.82,
+    "clean_kw": 69.136
+  },
+  {
+    "capacity_kw": 120,
+    "irradiance": 883.76,
+    "module_temp": 43.35,
+    "slope": 29.47,
+    "clean_kw": 95.0471
+  },
+  {
+    "capacity_kw": 150,
+    "irradiance": 576.91,
+    "module_temp": 18.92,
+    "slope": 33.23,
+    "clean_kw": 84.0839
+  },
+  {
+    "capacity_kw": 80,
+    "irradiance": 965.11,
+    "module_temp": 57.09,
+    "slope": 17.69,
+    "clean_kw": 66.6288
+  },
+  {
+    "capacity_kw": 100,
+    "irradiance": 1012.86,
+    "module_temp": 22.03,
+    "slope": 22.15,
+    "clean_kw": 100.894
+  },
+  {
+    "capacity_kw": 120,
+    "irradiance": 398.45,
+    "module_temp": 53.75,
+    "slope": 29.15,
+    "clean_kw": 41.5005
+  },
+  {
+    "capacity_kw": 150,
+    "irradiance": 734.86,
+    "module_temp": 30.46,
+    "slope": 31.81,
+    "clean_kw": 103.6884
+  },
+  {
+    "capacity_kw": 80,
+    "irradiance": 646.2,
+    "module_temp": 27.95,
+    "slope": 23.48,
+    "clean_kw": 50.0047
+  },
+  {
+    "capacity_kw": 100,
+    "irradiance": 568.2,
+    "module_temp": 64.77,
+    "slope": 26.25,
+    "clean_kw": 46.2418
+  },
+  {
+    "capacity_kw": 120,
+    "irradiance": 656.67,
+    "module_temp": 42.33,
+    "slope": 13.03,
+    "clean_kw": 69.7768
+  },
+  {
+    "capacity_kw": 150,
+    "irradiance": 761.82,
+    "module_temp": 28.82,
+    "slope": 15.51,
+    "clean_kw": 108.9647
+  },
+  {
+    "capacity_kw": 80,
+    "irradiance": 399.7,
+    "module_temp": 47.66,
+    "slope": 15.72,
+    "clean_kw": 29.101
+  },
+  {
+    "capacity_kw": 100,
+    "irradiance": 399.6,
+    "module_temp": 29.19,
+    "slope": 26.72,
+    "clean_kw": 37.6204
+  },
+  {
+    "capacity_kw": 120,
+    "irradiance": 499.97,
+    "module_temp": 24.22,
+    "slope": 33.39,
+    "clean_kw": 56.3682
+  },
+  {
+    "capacity_kw": 150,
+    "irradiance": 899.23,
+    "module_temp": 55.95,
+    "slope": 14.76,
+    "clean_kw": 113.0966
+  },
+  {
+    "capacity_kw": 80,
+    "irradiance": 417.85,
+    "module_temp": 38.26,
+    "slope": 20.59,
+    "clean_kw": 29.9389
+  },
+  {
+    "capacity_kw": 100,
+    "irradiance": 821.36,
+    "module_temp": 64.26,
+    "slope": 12.46,
+    "clean_kw": 65.7623
+  },
+  {
+    "capacity_kw": 120,
+    "irradiance": 631.83,
+    "module_temp": 33.95,
+    "slope": 31.54,
+    "clean_kw": 70.0479
+  },
+  {
+    "capacity_kw": 150,
+    "irradiance": 664.03,
+    "module_temp": 37.83,
+    "slope": 16.96,
+    "clean_kw": 91.9928
+  },
+  {
+    "capacity_kw": 80,
+    "irradiance": 524.86,
+    "module_temp": 61.39,
+    "slope": 21.08,
+    "clean_kw": 35.6485
+  },
+  {
+    "capacity_kw": 100,
+    "irradiance": 385.41,
+    "module_temp": 64.97,
+    "slope": 30.9,
+    "clean_kw": 30.4971
+  },
+  {
+    "capacity_kw": 120,
+    "irradiance": 1028.3,
+    "module_temp": 61.54,
+    "slope": 31.22,
+    "clean_kw": 101.4952
+  },
+  {
+    "capacity_kw": 150,
+    "irradiance": 499.62,
+    "module_temp": 36.85,
+    "slope": 11.47,
+    "clean_kw": 67.7626
+  },
+  {
+    "capacity_kw": 80,
+    "irradiance": 615.28,
+    "module_temp": 64.31,
+    "slope": 16.63,
+    "clean_kw": 40.3004
+  },
+  {
+    "capacity_kw": 100,
+    "irradiance": 646.11,
+    "module_temp": 62.99,
+    "slope": 34.89,
+    "clean_kw": 50.6736
+  },
+  {
+    "capacity_kw": 120,
+    "irradiance": 739.04,
+    "module_temp": 51.77,
+    "slope": 13.87,
+    "clean_kw": 75.1308
+  },
+  {
+    "capacity_kw": 150,
+    "irradiance": 755.43,
+    "module_temp": 43.48,
+    "slope": 28.7,
+    "clean_kw": 103.4528
+  },
+  {
+    "capacity_kw": 80,
+    "irradiance": 390.02,
+    "module_temp": 45.46,
+    "slope": 22.57,
+    "clean_kw": 28.3025
+  },
+  {
+    "capacity_kw": 100,
+    "irradiance": 1022.55,
+    "module_temp": 21.77,
+    "slope": 14.65,
+    "clean_kw": 99.0333
+  },
+  {
+    "capacity_kw": 120,
+    "irradiance": 766.52,
+    "module_temp": 49.73,
+    "slope": 15.88,
+    "clean_kw": 80.9609
+  },
+  {
+    "capacity_kw": 150,
+    "irradiance": 522.35,
+    "module_temp": 45.94,
+    "slope": 25.48,
+    "clean_kw": 71.1551
+  },
+  {
+    "capacity_kw": 80,
+    "irradiance": 643.46,
+    "module_temp": 45.43,
+    "slope": 23.07,
+    "clean_kw": 46.7269
+  },
+  {
+    "capacity_kw": 100,
+    "irradiance": 851.33,
+    "module_temp": 29.22,
+    "slope": 19.89,
+    "clean_kw": 81.6057
+  },
+  {
+    "capacity_kw": 120,
+    "irradiance": 820.18,
+    "module_temp": 32.1,
+    "slope": 17.9,
+    "clean_kw": 92.9724
+  },
+  {
+    "capacity_kw": 150,
+    "irradiance": 670.8,
+    "module_temp": 64.93,
+    "slope": 34.9,
+    "clean_kw": 79.0134
+  },
+  {
+    "capacity_kw": 80,
+    "irradiance": 401.28,
+    "module_temp": 28.02,
+    "slope": 16.63,
+    "clean_kw": 31.9193
+  },
+  {
+    "capacity_kw": 100,
+    "irradiance": 965.49,
+    "module_temp": 35.37,
+    "slope": 13.94,
+    "clean_kw": 87.871
+  },
+  {
+    "capacity_kw": 120,
+    "irradiance": 933.62,
+    "module_temp": 51.07,
+    "slope": 25.29,
+    "clean_kw": 99.1319
+  },
+  {
+    "capacity_kw": 150,
+    "irradiance": 355.48,
+    "module_temp": 56.4,
+    "slope": 17.48,
+    "clean_kw": 45.1896
+  },
+  {
+    "capacity_kw": 80,
+    "irradiance": 814.37,
+    "module_temp": 62.13,
+    "slope": 13.36,
+    "clean_kw": 53.0484
+  },
+  {
+    "capacity_kw": 100,
+    "irradiance": 737.26,
+    "module_temp": 30.8,
+    "slope": 25.12,
+    "clean_kw": 70.6828
+  },
+  {
+    "capacity_kw": 120,
+    "irradiance": 852.33,
+    "module_temp": 27.57,
+    "slope": 25.86,
+    "clean_kw": 98.8901
+  },
+  {
+    "capacity_kw": 150,
+    "irradiance": 983.74,
+    "module_temp": 57.77,
+    "slope": 12.31,
+    "clean_kw": 122.0075
+  },
+  {
+    "capacity_kw": 80,
+    "irradiance": 646.5,
+    "module_temp": 31.0,
+    "slope": 10.09,
+    "clean_kw": 47.0666
+  },
+  {
+    "capacity_kw": 100,
+    "irradiance": 533.37,
+    "module_temp": 52.84,
+    "slope": 23.79,
+    "clean_kw": 45.5235
+  },
+  {
+    "capacity_kw": 120,
+    "irradiance": 649.38,
+    "module_temp": 18.45,
+    "slope": 11.88,
+    "clean_kw": 76.445
+  },
+  {
+    "capacity_kw": 150,
+    "irradiance": 731.91,
+    "module_temp": 57.23,
+    "slope": 24.56,
+    "clean_kw": 92.7093
+  },
+  {
+    "capacity_kw": 80,
+    "irradiance": 453.67,
+    "module_temp": 23.99,
+    "slope": 17.71,
+    "clean_kw": 36.3382
+  },
+  {
+    "capacity_kw": 100,
+    "irradiance": 952.49,
+    "module_temp": 60.25,
+    "slope": 15.25,
+    "clean_kw": 78.022
+  },
+  {
+    "capacity_kw": 120,
+    "irradiance": 524.67,
+    "module_temp": 22.83,
+    "slope": 29.5,
+    "clean_kw": 61.9264
+  },
+  {
+    "capacity_kw": 150,
+    "irradiance": 784.46,
+    "module_temp": 25.26,
+    "slope": 33.25,
+    "clean_kw": 111.0499
+  },
+  {
+    "capacity_kw": 80,
+    "irradiance": 955.22,
+    "module_temp": 63.88,
+    "slope": 30.27,
+    "clean_kw": 62.3262
+  },
+  {
+    "capacity_kw": 100,
+    "irradiance": 865.6,
+    "module_temp": 33.61,
+    "slope": 33.27,
+    "clean_kw": 79.1624
+  },
+  {
+    "capacity_kw": 120,
+    "irradiance": 911.56,
+    "module_temp": 58.61,
+    "slope": 30.27,
+    "clean_kw": 91.1663
+  },
+  {
+    "capacity_kw": 150,
+    "irradiance": 425.67,
+    "module_temp": 58.99,
+    "slope": 31.46,
+    "clean_kw": 54.0167
+  },
+  {
+    "capacity_kw": 80,
+    "irradiance": 505.7,
+    "module_temp": 56.38,
+    "slope": 21.51,
+    "clean_kw": 34.2536
+  },
+  {
+    "capacity_kw": 100,
+    "irradiance": 509.32,
+    "module_temp": 19.11,
+    "slope": 14.83,
+    "clean_kw": 51.1331
+  },
+  {
+    "capacity_kw": 120,
+    "irradiance": 579.78,
+    "module_temp": 58.62,
+    "slope": 34.17,
+    "clean_kw": 56.5878
+  },
+  {
+    "capacity_kw": 150,
+    "irradiance": 629.77,
+    "module_temp": 64.11,
+    "slope": 23.41,
+    "clean_kw": 79.0042
+  },
+  {
+    "capacity_kw": 80,
+    "irradiance": 1007.47,
+    "module_temp": 23.42,
+    "slope": 34.26,
+    "clean_kw": 77.122
+  },
+  {
+    "capacity_kw": 100,
+    "irradiance": 535.83,
+    "module_temp": 23.09,
+    "slope": 20.86,
+    "clean_kw": 54.3382
+  },
+  {
+    "capacity_kw": 120,
+    "irradiance": 859.98,
+    "module_temp": 32.74,
+    "slope": 25.16,
+    "clean_kw": 97.2227
+  },
+  {
+    "capacity_kw": 150,
+    "irradiance": 753.61,
+    "module_temp": 29.97,
+    "slope": 27.72,
+    "clean_kw": 107.7914
+  },
+  {
+    "capacity_kw": 80,
+    "irradiance": 351.18,
+    "module_temp": 61.5,
+    "slope": 23.46,
+    "clean_kw": 23.307
+  },
+  {
+    "capacity_kw": 100,
+    "irradiance": 819.44,
+    "module_temp": 35.12,
+    "slope": 11.75,
+    "clean_kw": 73.0189
+  },
+  {
+    "capacity_kw": 120,
+    "irradiance": 814.97,
+    "module_temp": 33.52,
+    "slope": 17.85,
+    "clean_kw": 92.4207
+  },
+  {
+    "capacity_kw": 150,
+    "irradiance": 560.23,
+    "module_temp": 32.54,
+    "slope": 20.21,
+    "clean_kw": 78.8339
+  },
+  {
+    "capacity_kw": 80,
+    "irradiance": 631.68,
+    "module_temp": 31.9,
+    "slope": 13.18,
+    "clean_kw": 45.382
+  },
+  {
+    "capacity_kw": 100,
+    "irradiance": 824.12,
+    "module_temp": 60.43,
+    "slope": 25.39,
+    "clean_kw": 69.9363
+  },
+  {
+    "capacity_kw": 120,
+    "irradiance": 560.66,
+    "module_temp": 43.75,
+    "slope": 10.01,
+    "clean_kw": 57.6796
+  },
+  {
+    "capacity_kw": 150,
+    "irradiance": 755.99,
+    "module_temp": 48.77,
+    "slope": 21.62,
+    "clean_kw": 101.176
+  },
+  {
+    "capacity_kw": 80,
+    "irradiance": 659.51,
+    "module_temp": 28.04,
+    "slope": 21.83,
+    "clean_kw": 51.9975
+  },
+  {
+    "capacity_kw": 100,
+    "irradiance": 468.78,
+    "module_temp": 21.99,
+    "slope": 22.89,
+    "clean_kw": 45.8203
+  },
+  {
+    "capacity_kw": 120,
+    "irradiance": 793.06,
+    "module_temp": 33.75,
+    "slope": 30.46,
+    "clean_kw": 88.4715
+  },
+  {
+    "capacity_kw": 150,
+    "irradiance": 507.25,
+    "module_temp": 27.36,
+    "slope": 10.61,
+    "clean_kw": 69.4196
+  },
+  {
+    "capacity_kw": 80,
+    "irradiance": 521.39,
+    "module_temp": 40.33,
+    "slope": 31.24,
+    "clean_kw": 38.1753
+  },
+  {
+    "capacity_kw": 100,
+    "irradiance": 790.84,
+    "module_temp": 27.14,
+    "slope": 27.41,
+    "clean_kw": 76.6788
+  },
+  {
+    "capacity_kw": 120,
+    "irradiance": 696.06,
+    "module_temp": 29.47,
+    "slope": 26.4,
+    "clean_kw": 81.1928
+  },
+  {
+    "capacity_kw": 150,
+    "irradiance": 889.03,
+    "module_temp": 23.01,
+    "slope": 20.63,
+    "clean_kw": 131.5392
+  },
+  {
+    "capacity_kw": 80,
+    "irradiance": 473.12,
+    "module_temp": 63.02,
+    "slope": 22.95,
+    "clean_kw": 31.9188
+  },
+  {
+    "capacity_kw": 100,
+    "irradiance": 943.84,
+    "module_temp": 39.45,
+    "slope": 30.04,
+    "clean_kw": 85.9805
+  },
+  {
+    "capacity_kw": 120,
+    "irradiance": 817.3,
+    "module_temp": 64.43,
+    "slope": 24.89,
+    "clean_kw": 82.17
+  },
+  {
+    "capacity_kw": 150,
+    "irradiance": 778.86,
+    "module_temp": 51.81,
+    "slope": 22.62,
+    "clean_kw": 101.7882
+  },
+  {
+    "capacity_kw": 80,
+    "irradiance": 931.4,
+    "module_temp": 43.75,
+    "slope": 32.43,
+    "clean_kw": 65.6768
+  },
+  {
+    "capacity_kw": 100,
+    "irradiance": 531.43,
+    "module_temp": 29.62,
+    "slope": 25.94,
+    "clean_kw": 50.2457
+  },
+  {
+    "capacity_kw": 120,
+    "irradiance": 886.07,
+    "module_temp": 42.5,
+    "slope": 25.67,
+    "clean_kw": 96.6557
+  },
+  {
+    "capacity_kw": 150,
+    "irradiance": 550.01,
+    "module_temp": 30.77,
+    "slope": 17.99,
+    "clean_kw": 78.6369
+  },
+  {
+    "capacity_kw": 80,
+    "irradiance": 728.11,
+    "module_temp": 24.5,
+    "slope": 15.78,
+    "clean_kw": 55.9335
+  },
+  {
+    "capacity_kw": 100,
+    "irradiance": 394.96,
+    "module_temp": 37.16,
+    "slope": 23.57,
+    "clean_kw": 35.8651
+  },
+  {
+    "capacity_kw": 120,
+    "irradiance": 641.04,
+    "module_temp": 27.72,
+    "slope": 20.5,
+    "clean_kw": 75.1353
+  },
+  {
+    "capacity_kw": 150,
+    "irradiance": 836.87,
+    "module_temp": 58.27,
+    "slope": 29.14,
+    "clean_kw": 104.9343
+  },
+  {
+    "capacity_kw": 80,
+    "irradiance": 616.27,
+    "module_temp": 18.28,
+    "slope": 18.79,
+    "clean_kw": 49.3737
+  },
+  {
+    "capacity_kw": 100,
+    "irradiance": 1017.4,
+    "module_temp": 37.69,
+    "slope": 28.69,
+    "clean_kw": 92.4318
+  },
+  {
+    "capacity_kw": 120,
+    "irradiance": 732.29,
+    "module_temp": 46.35,
+    "slope": 15.51,
+    "clean_kw": 77.5436
+  },
+  {
+    "capacity_kw": 150,
+    "irradiance": 370.32,
+    "module_temp": 33.8,
+    "slope": 26.98,
+    "clean_kw": 52.9491
+  },
+  {
+    "capacity_kw": 80,
+    "irradiance": 633.02,
+    "module_temp": 25.76,
+    "slope": 21.68,
+    "clean_kw": 50.0831
+  },
+  {
+    "capacity_kw": 100,
+    "irradiance": 368.88,
+    "module_temp": 36.52,
+    "slope": 24.11,
+    "clean_kw": 35.1231
+  },
+  {
+    "capacity_kw": 120,
+    "irradiance": 368.97,
+    "module_temp": 48.21,
+    "slope": 13.39,
+    "clean_kw": 38.0477
+  },
+  {
+    "capacity_kw": 150,
+    "irradiance": 615.37,
+    "module_temp": 27.95,
+    "slope": 18.17,
+    "clean_kw": 88.8047
+  },
+  {
+    "capacity_kw": 80,
+    "irradiance": 882.86,
+    "module_temp": 35.82,
+    "slope": 28.8,
+    "clean_kw": 65.7829
+  },
+  {
+    "capacity_kw": 100,
+    "irradiance": 407.33,
+    "module_temp": 18.91,
+    "slope": 23.49,
+    "clean_kw": 40.4567
+  },
+  {
+    "capacity_kw": 120,
+    "irradiance": 1049.94,
+    "module_temp": 34.45,
+    "slope": 26.25,
+    "clean_kw": 118.6052
+  },
+  {
+    "capacity_kw": 150,
+    "irradiance": 877.96,
+    "module_temp": 62.63,
+    "slope": 14.98,
+    "clean_kw": 106.551
+  },
+  {
+    "capacity_kw": 80,
+    "irradiance": 364.27,
+    "module_temp": 25.16,
+    "slope": 13.16,
+    "clean_kw": 27.2873
+  },
+  {
+    "capacity_kw": 100,
+    "irradiance": 502.58,
+    "module_temp": 50.87,
+    "slope": 29.17,
+    "clean_kw": 42.9073
+  },
+  {
+    "capacity_kw": 120,
+    "irradiance": 467.45,
+    "module_temp": 46.54,
+    "slope": 28.7,
+    "clean_kw": 50.6408
+  },
+  {
+    "capacity_kw": 150,
+    "irradiance": 1025.3,
+    "module_temp": 23.08,
+    "slope": 10.64,
+    "clean_kw": 145.569
+  },
+  {
+    "capacity_kw": 80,
+    "irradiance": 568.37,
+    "module_temp": 49.84,
+    "slope": 33.95,
+    "clean_kw": 37.839
+  },
+  {
+    "capacity_kw": 100,
+    "irradiance": 403.2,
+    "module_temp": 50.46,
+    "slope": 25.68,
+    "clean_kw": 36.0342
+  },
+  {
+    "capacity_kw": 120,
+    "irradiance": 421.33,
+    "module_temp": 54.31,
+    "slope": 31.26,
+    "clean_kw": 42.5605
+  },
+  {
+    "capacity_kw": 150,
+    "irradiance": 1038.69,
+    "module_temp": 54.78,
+    "slope": 18.68,
+    "clean_kw": 133.534
+  },
+  {
+    "capacity_kw": 80,
+    "irradiance": 649.86,
+    "module_temp": 35.42,
+    "slope": 22.65,
+    "clean_kw": 48.1385
+  },
+  {
+    "capacity_kw": 100,
+    "irradiance": 925.63,
+    "module_temp": 22.96,
+    "slope": 34.02,
+    "clean_kw": 89.1153
+  },
+  {
+    "capacity_kw": 120,
+    "irradiance": 794.91,
+    "module_temp": 56.95,
+    "slope": 27.68,
+    "clean_kw": 80.0156
+  },
+  {
+    "capacity_kw": 150,
+    "irradiance": 1025.83,
+    "module_temp": 30.69,
+    "slope": 30.2,
+    "clean_kw": 145.438
+  },
+  {
+    "capacity_kw": 80,
+    "irradiance": 726.72,
+    "module_temp": 40.72,
+    "slope": 20.89,
+    "clean_kw": 53.2574
+  },
+  {
+    "capacity_kw": 100,
+    "irradiance": 946.2,
+    "module_temp": 57.04,
+    "slope": 12.17,
+    "clean_kw": 77.4273
+  },
+  {
+    "capacity_kw": 120,
+    "irradiance": 967.14,
+    "module_temp": 29.46,
+    "slope": 21.62,
+    "clean_kw": 111.1527
+  },
+  {
+    "capacity_kw": 150,
+    "irradiance": 370.09,
+    "module_temp": 57.99,
+    "slope": 14.55,
+    "clean_kw": 45.7845
+  },
+  {
+    "capacity_kw": 80,
+    "irradiance": 498.48,
+    "module_temp": 55.5,
+    "slope": 18.51,
+    "clean_kw": 34.8395
+  },
+  {
+    "capacity_kw": 100,
+    "irradiance": 543.39,
+    "module_temp": 18.48,
+    "slope": 33.7,
+    "clean_kw": 52.0357
+  },
+  {
+    "capacity_kw": 120,
+    "irradiance": 409.93,
+    "module_temp": 51.84,
+    "slope": 22.21,
+    "clean_kw": 43.0743
+  },
+  {
+    "capacity_kw": 150,
+    "irradiance": 802.13,
+    "module_temp": 41.07,
+    "slope": 29.82,
+    "clean_kw": 107.7677
+  },
+  {
+    "capacity_kw": 80,
+    "irradiance": 415.14,
+    "module_temp": 28.42,
+    "slope": 27.29,
+    "clean_kw": 31.6242
+  },
+  {
+    "capacity_kw": 100,
+    "irradiance": 681.28,
+    "module_temp": 42.95,
+    "slope": 20.64,
+    "clean_kw": 62.6702
+  },
+  {
+    "capacity_kw": 120,
+    "irradiance": 872.15,
+    "module_temp": 33.55,
+    "slope": 27.57,
+    "clean_kw": 98.3603
+  },
+  {
+    "capacity_kw": 150,
+    "irradiance": 434.46,
+    "module_temp": 27.05,
+    "slope": 12.99,
+    "clean_kw": 61.8885
+  },
+  {
+    "capacity_kw": 80,
+    "irradiance": 725.1,
+    "module_temp": 53.82,
+    "slope": 14.63,
+    "clean_kw": 49.372
+  },
+  {
+    "capacity_kw": 100,
+    "irradiance": 857.21,
+    "module_temp": 63.9,
+    "slope": 23.12,
+    "clean_kw": 71.666
+  },
+  {
+    "capacity_kw": 120,
+    "irradiance": 548.1,
+    "module_temp": 22.72,
+    "slope": 14.85,
+    "clean_kw": 63.7791
+  },
+  {
+    "capacity_kw": 150,
+    "irradiance": 359.9,
+    "module_temp": 43.1,
+    "slope": 16.86,
+    "clean_kw": 48.9125
+  },
+  {
+    "capacity_kw": 80,
+    "irradiance": 1032.01,
+    "module_temp": 44.01,
+    "slope": 27.44,
+    "clean_kw": 75.2257
+  },
+  {
+    "capacity_kw": 100,
+    "irradiance": 693.62,
+    "module_temp": 59.02,
+    "slope": 24.35,
+    "clean_kw": 59.6253
+  },
+  {
+    "capacity_kw": 120,
+    "irradiance": 678.58,
+    "module_temp": 38.7,
+    "slope": 14.61,
+    "clean_kw": 75.2682
+  },
+  {
+    "capacity_kw": 150,
+    "irradiance": 684.41,
+    "module_temp": 56.64,
+    "slope": 20.02,
+    "clean_kw": 88.127
+  },
+  {
+    "capacity_kw": 80,
+    "irradiance": 401.86,
+    "module_temp": 47.58,
+    "slope": 11.34,
+    "clean_kw": 27.9617
+  },
+  {
+    "capacity_kw": 100,
+    "irradiance": 562.68,
+    "module_temp": 64.71,
+    "slope": 12.96,
+    "clean_kw": 45.6264
+  },
+  {
+    "capacity_kw": 120,
+    "irradiance": 885.11,
+    "module_temp": 46.5,
+    "slope": 29.77,
+    "clean_kw": 93.9246
+  },
+  {
+    "capacity_kw": 150,
+    "irradiance": 665.36,
+    "module_temp": 38.81,
+    "slope": 31.5,
+    "clean_kw": 91.1413
+  },
+  {
+    "capacity_kw": 80,
+    "irradiance": 1043.02,
+    "module_temp": 32.35,
+    "slope": 25.53,
+    "clean_kw": 78.3891
+  },
+  {
+    "capacity_kw": 100,
+    "irradiance": 1013.31,
+    "module_temp": 27.77,
+    "slope": 15.28,
+    "clean_kw": 95.734
+  },
+  {
+    "capacity_kw": 120,
+    "irradiance": 812.3,
+    "module_temp": 25.38,
+    "slope": 14.35,
+    "clean_kw": 93.236
+  },
+  {
+    "capacity_kw": 150,
+    "irradiance": 665.35,
+    "module_temp": 45.91,
+    "slope": 17.28,
+    "clean_kw": 88.751
+  },
+  {
+    "capacity_kw": 80,
+    "irradiance": 512.03,
+    "module_temp": 51.23,
+    "slope": 27.57,
+    "clean_kw": 34.7517
+  },
+  {
+    "capacity_kw": 100,
+    "irradiance": 996.74,
+    "module_temp": 55.03,
+    "slope": 25.63,
+    "clean_kw": 86.0486
+  },
+  {
+    "capacity_kw": 120,
+    "irradiance": 812.83,
+    "module_temp": 61.88,
+    "slope": 20.63,
+    "clean_kw": 80.4439
+  },
+  {
+    "capacity_kw": 150,
+    "irradiance": 985.89,
+    "module_temp": 56.85,
+    "slope": 11.79,
+    "clean_kw": 121.3327
+  },
+  {
+    "capacity_kw": 80,
+    "irradiance": 466.15,
+    "module_temp": 32.46,
+    "slope": 28.72,
+    "clean_kw": 34.6135
+  },
+  {
+    "capacity_kw": 100,
+    "irradiance": 437.05,
+    "module_temp": 50.37,
+    "slope": 27.49,
+    "clean_kw": 38.0207
+  },
+  {
+    "capacity_kw": 120,
+    "irradiance": 1009.87,
+    "module_temp": 41.52,
+    "slope": 22.34,
+    "clean_kw": 111.06
+  },
+  {
+    "capacity_kw": 150,
+    "irradiance": 652.42,
+    "module_temp": 33.15,
+    "slope": 16.26,
+    "clean_kw": 91.5788
+  },
+  {
+    "capacity_kw": 80,
+    "irradiance": 413.93,
+    "module_temp": 63.21,
+    "slope": 30.9,
+    "clean_kw": 25.5465
+  },
+  {
+    "capacity_kw": 100,
+    "irradiance": 1049.7,
+    "module_temp": 49.6,
+    "slope": 16.74,
+    "clean_kw": 90.9099
+  },
+  {
+    "capacity_kw": 120,
+    "irradiance": 378.16,
+    "module_temp": 53.54,
+    "slope": 21.76,
+    "clean_kw": 38.5363
+  },
+  {
+    "capacity_kw": 150,
+    "irradiance": 477.04,
+    "module_temp": 45.51,
+    "slope": 25.87,
+    "clean_kw": 63.0311
+  },
+  {
+    "capacity_kw": 80,
+    "irradiance": 694.21,
+    "module_temp": 22.29,
+    "slope": 18.7,
+    "clean_kw": 54.2208
+  },
+  {
+    "capacity_kw": 100,
+    "irradiance": 950.41,
+    "module_temp": 33.5,
+    "slope": 27.34,
+    "clean_kw": 90.2926
+  },
+  {
+    "capacity_kw": 120,
+    "irradiance": 551.75,
+    "module_temp": 62.42,
+    "slope": 30.34,
+    "clean_kw": 53.5823
+  },
+  {
+    "capacity_kw": 150,
+    "irradiance": 570.16,
+    "module_temp": 33.19,
+    "slope": 34.25,
+    "clean_kw": 77.7017
+  },
+  {
+    "capacity_kw": 80,
+    "irradiance": 632.92,
+    "module_temp": 42.19,
+    "slope": 34.7,
+    "clean_kw": 43.8269
+  },
+  {
+    "capacity_kw": 100,
+    "irradiance": 639.27,
+    "module_temp": 26.82,
+    "slope": 19.04,
+    "clean_kw": 61.2158
+  },
+  {
+    "capacity_kw": 120,
+    "irradiance": 879.51,
+    "module_temp": 47.39,
+    "slope": 29.0,
+    "clean_kw": 93.3638
+  },
+  {
+    "capacity_kw": 150,
+    "irradiance": 999.37,
+    "module_temp": 38.59,
+    "slope": 27.46,
+    "clean_kw": 138.8621
+  },
+  {
+    "capacity_kw": 80,
+    "irradiance": 435.0,
+    "module_temp": 63.74,
+    "slope": 25.22,
+    "clean_kw": 28.8015
+  },
+  {
+    "capacity_kw": 100,
+    "irradiance": 735.59,
+    "module_temp": 43.96,
+    "slope": 12.33,
+    "clean_kw": 64.6807
+  },
+  {
+    "capacity_kw": 120,
+    "irradiance": 1044.58,
+    "module_temp": 60.91,
+    "slope": 21.54,
+    "clean_kw": 106.0381
+  },
+  {
+    "capacity_kw": 150,
+    "irradiance": 698.86,
+    "module_temp": 51.68,
+    "slope": 22.72,
+    "clean_kw": 92.5931
+  },
+  {
+    "capacity_kw": 80,
+    "irradiance": 541.4,
+    "module_temp": 57.23,
+    "slope": 34.51,
+    "clean_kw": 35.5071
+  },
+  {
+    "capacity_kw": 100,
+    "irradiance": 618.51,
+    "module_temp": 61.33,
+    "slope": 22.71,
+    "clean_kw": 52.627
+  },
+  {
+    "capacity_kw": 120,
+    "irradiance": 965.53,
+    "module_temp": 58.61,
+    "slope": 16.91,
+    "clean_kw": 97.3315
+  },
+  {
+    "capacity_kw": 150,
+    "irradiance": 1003.97,
+    "module_temp": 41.86,
+    "slope": 30.51,
+    "clean_kw": 134.5985
+  }
+]
