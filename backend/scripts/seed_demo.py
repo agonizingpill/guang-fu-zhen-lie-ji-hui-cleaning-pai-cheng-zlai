@@ -5,6 +5,7 @@ from src.models import User,ArrayBlock,SoilingSurvey,WashMission
 from src.revisit_models import WaterDelivery,FollowupSurvey
 from src.auth import hash_password
 from src.operations_models import WashCrew
+from src.road_models import LANE_CODE,RoadLane
 
 def seed():
     Base.metadata.create_all(engine)
@@ -12,6 +13,7 @@ def seed():
         for role in ['admin','planner','viewer']:
             email=role+'@qingling.test'
             if not db.scalar(select(User).where(User.email==email)):db.add(User(email=email,password=hash_password('Solar2026!'),role=role))
+        if not db.scalar(select(RoadLane).where(RoadLane.code==LANE_CODE)):db.add(RoadLane(code=LANE_CODE,status='open'))
         for code,minutes in [('CREW-SOUTH',480),('CREW-RIDGE',360)]:
             if not db.scalar(select(WashCrew).where(WashCrew.code==code)):db.add(WashCrew(code=code,max_daily_minutes=minutes))
         blocks=[('SL-A01','南坡一号','南坡',150,23,780,1500),('SL-A02','南坡二号','南坡',120,25,630,1200),('SL-B01','脊线一号','脊线',100,18,520,900),('SL-C01','西坡一号','西坡',80,30,420,600)]

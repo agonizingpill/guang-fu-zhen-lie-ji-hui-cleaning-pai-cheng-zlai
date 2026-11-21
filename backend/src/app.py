@@ -15,6 +15,7 @@ from .survey_routes import router as surveys
 from .mission_routes import router as missions
 from .revisit_routes import router as revisits
 from .operations_routes import router as operations
+from .road_routes import router as road
 queue=redis.Redis.from_url(os.getenv('REDIS_URL','redis://redis:6379/0'),decode_responses=True)
 @asynccontextmanager
 async def lifespan(app):
@@ -45,4 +46,4 @@ def login(body:Login,db=Depends(session)):
     return {'token':issue(user),'email':user.email,'role':user.role}
 @app.get('/audits')
 def audits(user=Depends(current),db=Depends(session)):return db.scalars(select(Audit).order_by(Audit.id.desc()).limit(50)).all()
-app.include_router(arrays);app.include_router(surveys);app.include_router(missions);app.include_router(revisits);app.include_router(operations)
+app.include_router(arrays);app.include_router(surveys);app.include_router(missions);app.include_router(revisits);app.include_router(operations);app.include_router(road)

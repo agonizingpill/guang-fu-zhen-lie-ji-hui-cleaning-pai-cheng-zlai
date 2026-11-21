@@ -1,0 +1,386 @@
+[
+ {
+  "trip_code": "RT-20261018-01",
+  "trip_date": "2026-10-18",
+  "crew_code": "CREW-SOUTH",
+  "load_liters": 200,
+  "wet_road": false,
+  "duration_minutes": 22.2
+ },
+ {
+  "trip_code": "RT-20261018-02",
+  "trip_date": "2026-10-18",
+  "crew_code": "CREW-RIDGE",
+  "load_liters": 500,
+  "wet_road": false,
+  "duration_minutes": 24.5
+ },
+ {
+  "trip_code": "RT-20261018-03",
+  "trip_date": "2026-10-18",
+  "crew_code": "CREW-SOUTH",
+  "load_liters": 350,
+  "wet_road": false,
+  "duration_minutes": 22.1
+ },
+ {
+  "trip_code": "RT-20261019-01",
+  "trip_date": "2026-10-19",
+  "crew_code": "CREW-RIDGE",
+  "load_liters": 1500,
+  "wet_road": false,
+  "duration_minutes": 33.5
+ },
+ {
+  "trip_code": "RT-20261019-02",
+  "trip_date": "2026-10-19",
+  "crew_code": "CREW-SOUTH",
+  "load_liters": 200,
+  "wet_road": false,
+  "duration_minutes": 20.0
+ },
+ {
+  "trip_code": "RT-20261019-03",
+  "trip_date": "2026-10-19",
+  "crew_code": "CREW-RIDGE",
+  "load_liters": 200,
+  "wet_road": false,
+  "duration_minutes": 20.2
+ },
+ {
+  "trip_code": "RT-20261020-01",
+  "trip_date": "2026-10-20",
+  "crew_code": "CREW-SOUTH",
+  "load_liters": 500,
+  "wet_road": false,
+  "duration_minutes": 24.6
+ },
+ {
+  "trip_code": "RT-20261020-02",
+  "trip_date": "2026-10-20",
+  "crew_code": "CREW-RIDGE",
+  "load_liters": 1500,
+  "wet_road": false,
+  "duration_minutes": 39.7
+ },
+ {
+  "trip_code": "RT-20261020-03",
+  "trip_date": "2026-10-20",
+  "crew_code": "CREW-SOUTH",
+  "load_liters": 500,
+  "wet_road": false,
+  "duration_minutes": 23.5
+ },
+ {
+  "trip_code": "RT-20261021-01",
+  "trip_date": "2026-10-21",
+  "crew_code": "CREW-RIDGE",
+  "load_liters": 1000,
+  "wet_road": true,
+  "duration_minutes": 33.2
+ },
+ {
+  "trip_code": "RT-20261021-02",
+  "trip_date": "2026-10-21",
+  "crew_code": "CREW-SOUTH",
+  "load_liters": 500,
+  "wet_road": true,
+  "duration_minutes": 28.6
+ },
+ {
+  "trip_code": "RT-20261021-03",
+  "trip_date": "2026-10-21",
+  "crew_code": "CREW-RIDGE",
+  "load_liters": 0,
+  "wet_road": true,
+  "duration_minutes": 24.6
+ },
+ {
+  "trip_code": "RT-20261022-01",
+  "trip_date": "2026-10-22",
+  "crew_code": "CREW-SOUTH",
+  "load_liters": 350,
+  "wet_road": false,
+  "duration_minutes": 21.7
+ },
+ {
+  "trip_code": "RT-20261022-02",
+  "trip_date": "2026-10-22",
+  "crew_code": "CREW-RIDGE",
+  "load_liters": 350,
+  "wet_road": false,
+  "duration_minutes": 20.5
+ },
+ {
+  "trip_code": "RT-20261022-03",
+  "trip_date": "2026-10-22",
+  "crew_code": "CREW-SOUTH",
+  "load_liters": 500,
+  "wet_road": false,
+  "duration_minutes": 26.2
+ },
+ {
+  "trip_code": "RT-20261023-01",
+  "trip_date": "2026-10-23",
+  "crew_code": "CREW-RIDGE",
+  "load_liters": 200,
+  "wet_road": false,
+  "duration_minutes": 20.0
+ },
+ {
+  "trip_code": "RT-20261023-02",
+  "trip_date": "2026-10-23",
+  "crew_code": "CREW-SOUTH",
+  "load_liters": 1000,
+  "wet_road": false,
+  "duration_minutes": 34.0
+ },
+ {
+  "trip_code": "RT-20261023-03",
+  "trip_date": "2026-10-23",
+  "crew_code": "CREW-RIDGE",
+  "load_liters": 650,
+  "wet_road": false,
+  "duration_minutes": 28.6
+ },
+ {
+  "trip_code": "RT-20261024-01",
+  "trip_date": "2026-10-24",
+  "crew_code": "CREW-SOUTH",
+  "load_liters": 0,
+  "wet_road": false,
+  "duration_minutes": 17.7
+ },
+ {
+  "trip_code": "RT-20261024-02",
+  "trip_date": "2026-10-24",
+  "crew_code": "CREW-RIDGE",
+  "load_liters": 1000,
+  "wet_road": false,
+  "duration_minutes": 27.8
+ },
+ {
+  "trip_code": "RT-20261024-03",
+  "trip_date": "2026-10-24",
+  "crew_code": "CREW-SOUTH",
+  "load_liters": 200,
+  "wet_road": false,
+  "duration_minutes": 16.6
+ },
+ {
+  "trip_code": "RT-20261025-01",
+  "trip_date": "2026-10-25",
+  "crew_code": "CREW-RIDGE",
+  "load_liters": 800,
+  "wet_road": false,
+  "duration_minutes": 26.7
+ },
+ {
+  "trip_code": "RT-20261025-02",
+  "trip_date": "2026-10-25",
+  "crew_code": "CREW-SOUTH",
+  "load_liters": 500,
+  "wet_road": false,
+  "duration_minutes": 24.1
+ },
+ {
+  "trip_code": "RT-20261025-03",
+  "trip_date": "2026-10-25",
+  "crew_code": "CREW-RIDGE",
+  "load_liters": 500,
+  "wet_road": false,
+  "duration_minutes": 23.6
+ },
+ {
+  "trip_code": "RT-20261026-01",
+  "trip_date": "2026-10-26",
+  "crew_code": "CREW-SOUTH",
+  "load_liters": 650,
+  "wet_road": false,
+  "duration_minutes": 30.4
+ },
+ {
+  "trip_code": "RT-20261026-02",
+  "trip_date": "2026-10-26",
+  "crew_code": "CREW-RIDGE",
+  "load_liters": 200,
+  "wet_road": false,
+  "duration_minutes": 20.1
+ },
+ {
+  "trip_code": "RT-20261026-03",
+  "trip_date": "2026-10-26",
+  "crew_code": "CREW-SOUTH",
+  "load_liters": 1000,
+  "wet_road": false,
+  "duration_minutes": 30.0
+ },
+ {
+  "trip_code": "RT-20261027-01",
+  "trip_date": "2026-10-27",
+  "crew_code": "CREW-RIDGE",
+  "load_liters": 800,
+  "wet_road": false,
+  "duration_minutes": 31.1
+ },
+ {
+  "trip_code": "RT-20261027-02",
+  "trip_date": "2026-10-27",
+  "crew_code": "CREW-SOUTH",
+  "load_liters": 350,
+  "wet_road": false,
+  "duration_minutes": 21.3
+ },
+ {
+  "trip_code": "RT-20261027-03",
+  "trip_date": "2026-10-27",
+  "crew_code": "CREW-RIDGE",
+  "load_liters": 650,
+  "wet_road": false,
+  "duration_minutes": 27.2
+ },
+ {
+  "trip_code": "RT-20261028-01",
+  "trip_date": "2026-10-28",
+  "crew_code": "CREW-SOUTH",
+  "load_liters": 200,
+  "wet_road": true,
+  "duration_minutes": 25.5
+ },
+ {
+  "trip_code": "RT-20261028-02",
+  "trip_date": "2026-10-28",
+  "crew_code": "CREW-RIDGE",
+  "load_liters": 500,
+  "wet_road": true,
+  "duration_minutes": 29.4
+ },
+ {
+  "trip_code": "RT-20261028-03",
+  "trip_date": "2026-10-28",
+  "crew_code": "CREW-SOUTH",
+  "load_liters": 350,
+  "wet_road": true,
+  "duration_minutes": 26.7
+ },
+ {
+  "trip_code": "RT-20261029-01",
+  "trip_date": "2026-10-29",
+  "crew_code": "CREW-RIDGE",
+  "load_liters": 1500,
+  "wet_road": false,
+  "duration_minutes": 37.2
+ },
+ {
+  "trip_code": "RT-20261029-02",
+  "trip_date": "2026-10-29",
+  "crew_code": "CREW-SOUTH",
+  "load_liters": 500,
+  "wet_road": false,
+  "duration_minutes": 22.6
+ },
+ {
+  "trip_code": "RT-20261029-03",
+  "trip_date": "2026-10-29",
+  "crew_code": "CREW-RIDGE",
+  "load_liters": 0,
+  "wet_road": false,
+  "duration_minutes": 14.1
+ },
+ {
+  "trip_code": "RT-20261030-01",
+  "trip_date": "2026-10-30",
+  "crew_code": "CREW-SOUTH",
+  "load_liters": 500,
+  "wet_road": false,
+  "duration_minutes": 26.0
+ },
+ {
+  "trip_code": "RT-20261030-02",
+  "trip_date": "2026-10-30",
+  "crew_code": "CREW-RIDGE",
+  "load_liters": 1000,
+  "wet_road": false,
+  "duration_minutes": 26.9
+ },
+ {
+  "trip_code": "RT-20261030-03",
+  "trip_date": "2026-10-30",
+  "crew_code": "CREW-SOUTH",
+  "load_liters": 650,
+  "wet_road": false,
+  "duration_minutes": 30.6
+ },
+ {
+  "trip_code": "RT-20261031-01",
+  "trip_date": "2026-10-31",
+  "crew_code": "CREW-RIDGE",
+  "load_liters": 800,
+  "wet_road": false,
+  "duration_minutes": 30.0
+ },
+ {
+  "trip_code": "RT-20261031-02",
+  "trip_date": "2026-10-31",
+  "crew_code": "CREW-SOUTH",
+  "load_liters": 500,
+  "wet_road": false,
+  "duration_minutes": 23.0
+ },
+ {
+  "trip_code": "RT-20261031-03",
+  "trip_date": "2026-10-31",
+  "crew_code": "CREW-RIDGE",
+  "load_liters": 1200,
+  "wet_road": false,
+  "duration_minutes": 31.2
+ },
+ {
+  "trip_code": "RT-20261101-01",
+  "trip_date": "2026-11-01",
+  "crew_code": "CREW-SOUTH",
+  "load_liters": 350,
+  "wet_road": false,
+  "duration_minutes": 22.2
+ },
+ {
+  "trip_code": "RT-20261101-02",
+  "trip_date": "2026-11-01",
+  "crew_code": "CREW-RIDGE",
+  "load_liters": 1500,
+  "wet_road": false,
+  "duration_minutes": 38.4
+ },
+ {
+  "trip_code": "RT-20261101-03",
+  "trip_date": "2026-11-01",
+  "crew_code": "CREW-SOUTH",
+  "load_liters": 1500,
+  "wet_road": false,
+  "duration_minutes": 36.5
+ },
+ {
+  "trip_code": "RT-20261102-01",
+  "trip_date": "2026-11-02",
+  "crew_code": "CREW-RIDGE",
+  "load_liters": 1000,
+  "wet_road": false,
+  "duration_minutes": 33.4
+ },
+ {
+  "trip_code": "RT-20261102-02",
+  "trip_date": "2026-11-02",
+  "crew_code": "CREW-SOUTH",
+  "load_liters": 800,
+  "wet_road": false,
+  "duration_minutes": 29.5
+ },
+ {
+  "trip_code": "RT-20261102-03",
+  "trip_date": "2026-11-02",
+  "crew_code": "CREW-RIDGE",
+  "load_liters": 1500,
+  "wet_road": false,
+  "duration_minutes": 44.2
+ }
+]

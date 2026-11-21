@@ -4,7 +4,7 @@ from .database import session
 from .auth import current,editor,admin
 from .field_service import require,audit
 from .operations_models import WashCrew,WorkPermit,WastewaterRecord,WashSettlement
-from .operations_schemas import CrewInput,CrewState,PermitInput,WasteInput,HandoverInput,SettlementInput
+from .operations_schemas import CrewInput,CrewState,PermitInput,WasteInput,HandoverInput,SettlementInput,SignInput
 from . import permit_service,waste_service,settlement_service
 router=APIRouter()
 @router.get('/crews')
@@ -20,7 +20,7 @@ def permits(u=Depends(current),db=Depends(session)):return db.scalars(select(Wor
 @router.post('/permits')
 def permit(b:PermitInput,u=Depends(editor),db=Depends(session)):return permit_service.plan(db,b,u)
 @router.post('/permits/{key}/sign')
-def permit_sign(key:int,u=Depends(admin),db=Depends(session)):return permit_service.sign(db,key,u)
+def permit_sign(key:int,b:SignInput|None=None,u=Depends(admin),db=Depends(session)):return permit_service.sign(db,key,b or SignInput(),u)
 @router.post('/permits/{key}/void')
 def permit_void(key:int,u=Depends(admin),db=Depends(session)):return permit_service.void(db,key,u)
 @router.get('/wastewater')

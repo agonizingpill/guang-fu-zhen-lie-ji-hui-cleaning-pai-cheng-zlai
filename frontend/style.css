@@ -6,3 +6,13 @@ input,select,textarea,.surface,.twocol>*,.mission-layout>*,.workdetails>*{min-wi
 @media(min-width:1101px){.expansion-layout{grid-template-columns:420px minmax(0,1fr)}}
 
 .topnav{display:flex;flex-wrap:wrap}.topnav a{flex:1 1 10%;min-width:125px}.checkline{display:flex;align-items:center;gap:10px}.checkline input{width:auto}textarea{min-height:76px;width:100%;padding:10px;border:1px solid var(--line);font:inherit;background:#fff}.expansion-layout article.surface{margin-bottom:14px}@media(max-width:600px){.topnav a{min-width:30%;font-size:12px}}
+
+/* 北坡便道预约：单车道看板 */
+.lane-field{border:1px solid var(--line);padding:14px 16px 4px;margin:0 0 16px;min-width:0}
+.lane-field legend{font:13px 'Barlow Condensed';letter-spacing:1px;color:var(--ochre);padding:0 6px}
+.road-card{margin-bottom:14px}
+.road-card h3{line-height:1.6}
+.road-reschedule{border-top:1px dashed var(--line);margin-top:14px;padding-top:14px}
+.badge.reserved,.badge.paused{color:var(--ochre);border-color:oklch(65% .1 65)}
+.badge.entered{color:var(--green);border-color:oklch(65% .08 135)}
+.badge.exited,.badge.voided{color:var(--muted);border-style:dashed}

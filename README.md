@@ -64,9 +64,10 @@ Seed按email、阵列code、巡测code自然键仅插入缺项，不覆盖用户
 Python3.12 / FastAPI / SQLAlchemy / PyMySQL / MySQL8 / Redis7 / scikit-learn1.6 / Nginx1.27。前端原生HTML/CSS/JS ES modules，无框架。
 
 - backend/src/models.py：三领域实体及审计/账号；schemas.py输入验证；array_routes、survey_routes、mission_routes为领域接口。
+- 北坡便道：road_models.py实体、road_schemas.py输入、road_routes.py接口、road_service.py占位/封路/进出场/改约事务、road_model.py按日期留出的通行估时，页面在pages/permits.js。
 - field_service.py：阵列规格/巡测规则、估损入队；wash_service.py：用水计划/事务派工/复测/验收联动；power_model.py：参考训练与评估；worker.py：估损消费与心跳；scripts/seed_demo.py幂等seed。
 - frontend/src/pages/：阵列图、巡测簿、损失与水量、派工复测及补给/复访六页；components/field.js复用阵列命名、巡测依据、水量账与状态。api.js、store.js、utils.js分离请求、领域状态、格式/时区/错误反馈。
-- 角色、巡测状态、任务状态枚举分别在backend/src/constants.py、frontend/src/constants.js，角色值与账号一致。
+- 角色、巡测状态、任务状态、便道状态枚举分别在backend/src/constants.py、frontend/src/constants.js，角色值与账号一致。
 - app.py的trace与recover中间件负责耗时与全局可恢复错误；审计记录真实变更账号/动作/时间。UI显示Asia/Shanghai。
 
 本地开发：创建Python3.12 venv，安装backend/requirements.txt，设置DATABASE_URL=`mysql+pymysql://solar:solar@127.0.0.1:17723/solar`、REDIS_URL指向本地Redis；backend目录运行uvicorn src.app:app --reload及python -m src.worker。worker默认/artifacts需要写权限，推荐Compose运行；前端经Nginx反向代理/api/，修改后compose build frontend。
@@ -106,3 +107,24 @@ MIT，见LICENSE。
 新增代码按实体、输入约束、路由、许可/废水/结算职责及3个页面组织。历史v1与expansion证据保留，第三轮证据在test-artifacts/gb-1024/v3/。作业许可按日容量预留，不模拟逐分钟班次；本地废水联单不接环保系统，合同凭据不触发收付款。
 
 V3 已知范围补充：每任务一张作业许可；撤销为终止办理，需重新创建任务，当前不支持同任务重办许可。草稿许可可在签发前修订；撤销会释放班组容量。
+
+## 第四轮扩展：北坡便道单车道预约
+
+北坡便道是通往脊线阵列的唯一便道，宽度只容一辆车通过，两班清洗车常在窄路堵住。本扩展把“许可签发”和“便道占位”绑在一起，保留原9页，扩展“班组作业许可”页为许可+便道预约综合办理页，仍为9个业务页面。
+
+**通行估时**：`backend/fixtures/north_road_trips.json` 固定 seed42 生成48条历史车次（16天，每天3趟），字段为车次、日期、班组、载水升数、是否湿路面、实测通行分钟。`road_model.py` 用 RandomForestRegressor（100树、max_depth6、min_samples_leaf2、random_state42）训练，**按日期留出**最后25%的日期（4天12条），训练MAE与留出MAE分开返回，写入预约的 `estimate_evidence`。模型特征只有载水升数与湿路面标志，不使用未来信息。
+
+**样本少时由主管估时**：训练样本少于24条、或当前路面条件下训练样本少于8条时，模型结果不可用，接口返回 `requires_supervisor=true` 且不给分钟数；只有主管（admin）能提交 `supervisor_minutes` 作为估时并注明原因，计划员提交会被403拒绝。页面在“主管估时”输入框留空即用模型值，样本不足时必须填写。当前数据下湿路面仅6条训练样本，正好走主管估时分支。
+
+**签发即占位**：申请许可时同时提交便道起始时间（HH:MM）、载水与湿路面，生成 `RoadReservation` 草稿；主管签发时在便道行锁内重算估时、校验与已占用时段不重叠（同窗口只签发一单）、与已确认封路不重叠、班组当日工时容量足够，通过后预约转为 `reserved`。相邻不重叠时段可分别签发；派工时预约须处于 `reserved`/`entered`/`exited`，暂停或释放的预约不能派工。撤销许可会释放预约位，但车辆仍在便道内时拒绝撤销。
+
+**单车道通行**：同一时刻只允许一辆车处于 `entered`。后车即使到点，前车未出场也无法进场（“前车超时未出场也得等”）；只有预约当日、到达起始时间后才能进场。出场时按计划结束时间计算超时分钟数并冻结。
+
+**封路与复通**：主管确认封路（日期+窗口+原因）时，把该日期窗口重叠的 `reserved` 预约批量转 `paused`；已 `entered` 的车不受影响，仍占道直到出场；封路窗口内的新进场一律拒绝。复通（`lifted`，终态）后暂停单不会自动恢复，须由计划员/主管改约：重新选日期与时段、重算估时、重新校验时段与封路冲突，成功后才回到 `reserved`。
+
+**断线重试不重复占位**：所有便道变更（申请许可、签发、封路复通、进出场、改约）都接受客户端 `request_key`，服务端在便道行锁内查询 `road_requests` 幂等台账，重复请求直接返回首次结果（许可返回原许可、预约返回原预约、封路返回原封路及暂停数），不会产生第二张单或第二次占位。页面按钮/表单首击生成并记住 key，成功后才清除；失败保留 key，重试即重放。
+
+实体：`RoadLane`（单行，序列化所有便道状态变更）、`RoadReservation`（许可唯一，记录时段、估时来源与依据、暂停来源封路、改约次数、进出场时间与超时）、`RoadClosure`、`RoadRequest`（幂等台账）。接口：`GET /road`、`POST /road/estimate`、`POST /road/closures`、`POST /road/closures/{id}/lift`、`POST /road/reservations/{id}/enter|exit|reschedule`；`POST /permits`、`POST /permits/{id}/sign`、`PUT /permits/{id}` 扩展便道字段。角色：计划员可申请许可、登记进出场与改约；主管签发、确认封路与复通、提供估时；观察员只读。
+
+已知范围：便道按分钟窗口占位，不处理“同一车次中途折返”；封路按确认/复通状态机，不按时钟自动开启；改约必须由人触发，复通后不会自动改约；`RoadLane.status` 仅存最近一次状态，看板以当前分钟是否落在已确认封路窗口计算实时封闭。
+

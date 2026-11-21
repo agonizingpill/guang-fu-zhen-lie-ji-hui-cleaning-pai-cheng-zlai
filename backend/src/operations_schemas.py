@@ -13,6 +13,14 @@ class PermitInput(Inputs):
     minutes:int=Field(ge=1,le=1440)
     wind_mps:float=Field(ge=0,le=60)
     isolation:bool
+    road_start:str=Field(min_length=4,max_length=5,description='便道预约起始 HH:MM')
+    wet_road:bool=False
+    load_liters:float|None=Field(default=None,gt=0,le=100000)
+    supervisor_minutes:int|None=Field(default=None,ge=1,le=1440)
+    request_key:str|None=Field(default=None,min_length=8,max_length=80)
+class SignInput(Inputs):
+    supervisor_minutes:int|None=Field(default=None,ge=1,le=1440)
+    request_key:str|None=Field(default=None,min_length=8,max_length=80)
 class WasteInput(Inputs):
     mission_id:int
     recovered_liters:float=Field(ge=0,le=100000)
